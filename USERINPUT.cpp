@@ -16,6 +16,7 @@ int main() {
     std::string name;
 
     std::cout << "What's ya full name?\n";
+    // more than one word
     std::getline(std::cin >> std::ws, name);
 
     std::cout << "Why, hello there " << name << "!\n";
